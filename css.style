@@ -1,1 +1,62 @@
+body {
+    background: linear-gradient(135deg, #ff4081, #ff80ab, #ea80fc, #b388ff, #8c9eff, #82b1ff, #80d8ff, #84ffff, #a7ffeb, #b9f6ca, #ccff90, #ffff8d, #ff9e80);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+@keyframes gradientAnimation {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    text-align: center;
+    color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#statsTable {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+#statsTable th, #statsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#statsTable th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+}
+
+#statsTable td {
+    text-align: center;
+}
 
